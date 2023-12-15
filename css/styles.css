@@ -1,0 +1,77 @@
+
+.logo {
+    width: auto;
+    max-height: 70%;
+    margin-left: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width: 800px) {
+    footer .links {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer .links {
+        margin-bottom: 10px;
+    }
+}
+
+footer .links>a {
+    color: #3f4447;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+    footer .links>a {
+        padding: 0 9px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    footer .links>a {
+        padding: 0 25px;
+    }
+}
+
+footer .links :hover {
+    color: #4b7513c2;
+}
+
+.navbar {
+    background-color: rgb(218, 248, 227);
+}
+
+body {
+        background-color: rgb(254, 255, 222);
+}
+
+.profile-card {
+    height: 100vh;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+}
